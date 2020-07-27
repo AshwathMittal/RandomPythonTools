@@ -9,6 +9,7 @@ Please use this tool for educational purpose only.
 ##### How to use this tool
 Just git clone this repository and run tools using python in kali linux.
 This is tested only for kali linux.
+Please install scapy_http using pip install scapy_http. Before using packer sniffer
 
 
 ###### Thank You
