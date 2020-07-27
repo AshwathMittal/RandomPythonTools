@@ -2,13 +2,11 @@
 
 import subprocess
 
-print(''' |\   /\  /|
-          | \ /  \/ |     Author:Ashwath Mittal
-          |  \/   /\|
-          | / \  /  \|
-          |/   \/    |\
-                                        ''' )
-interface = raw_input("Interface:")
+print(''' Author:Ashwath Mittal
+           ## Legall Disclaimer Developers or anyone associated with this Repository assume no liablity                                                  
+           and they are not responsible for how you use this tool.Please use this tool for educational purpose only. ''' )
+
+interface = raw_input("Interface (eth0,wlan)>:")
 new_mac = raw_input("Please enter new mac:")
 
 subprocess.call("ifconfig" + interface + "down", shell=True)
