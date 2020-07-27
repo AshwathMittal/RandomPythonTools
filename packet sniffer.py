@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-import subprocess
+
 import scapy.all as scapy
-from scap.layers import http
+from scapy.layers import http
 
 print(''' Legall Disclaimer Developers or anyone associated with this Repository \n assume no liablity and they are not responsible for how you use this tool.                                                 
 Please use this tool for educational purpose only.''')
 
-subprocess.call("pip install scapy_http")
+
 def sniff(interface):
     scapy.sniff(iface=interface, store=False, prn=process_sniffed_packet,)
 
