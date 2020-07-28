@@ -20,5 +20,5 @@ def print_result(result_list):
     for client in result_list:
         print(client["ip"] + "\t\t" + client["mac"])
 
-scan_result=scan(ipf/24)
+scan_result=scan(ipf + "/24")
 print_result(scan_result)
