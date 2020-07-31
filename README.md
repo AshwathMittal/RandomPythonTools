@@ -1,5 +1,5 @@
 # Hacking-tools
-Many tools in one repo like mac changer, Packet sniffer.
+Many tools in one repo like mac changer, Instahacker, wifihacker.
 This Repository will be updated soon with many more tools
 
 ## Legall Disclaimer
